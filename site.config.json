@@ -1,0 +1,167 @@
+{
+  "brand": { "name": "SkynetLabs Photography Demo", "tagline": "Editorial wedding + portrait photography from Brooklyn" },
+  "niche": "photography",
+  "niche_label": "Photography",
+  "location": { "city": "Brooklyn", "region": "NY", "country": "US" },
+  "owner": {
+    "name": "Waseem Nasir", "agency": "SkynetLabs",
+    "fiverr_url": "https://www.fiverr.com/agencies/skynetjoellc",
+    "hub_url": "https://skynetjoe.com",
+    "contact_email": "waseembali2k26@gmail.com",
+    "contact_phone": "+1-718-555-0167"
+  },
+  "palette": {
+    "bg": "#0A0A0A", "surface": "#1A1A1A", "ink": "#F5F1EA",
+    "accent": "#B89968", "detail": "#E8E4DD"
+  },
+  "fonts": { "display": "Tenor Sans", "body": "Manrope", "mono": "JetBrains Mono" },
+  "dark_mode": true,
+  "design": {
+    "rhythm": { "services": "generous", "testimonial": "normal", "gallery": "generous" }
+  },
+  "hero": {
+    "kind": "r3f",
+    "h1": "Boutique film and digital portraiture in Williamsburg.",
+    "sub": "Editorial · fashion · brand. By-appointment studio sessions. Profoto + Hasselblad + 35mm Portra.",
+    "photo_url": "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?w=1920&auto=format&fit=crop&q=80",
+    "photo_credit": "Photo by Annie Spratt on Unsplash",
+    "overlay": "rgba(0,0,0,0.0)",
+    "focal_point": "center"
+  },
+  "hero_3d": {
+    "r3f_scene": "r3f-film-canister",
+    "poster_url": "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?w=1920&auto=format&fit=crop&q=80",
+    "material": {
+      "kind": "anisotropic-ggx",
+      "metal": "brushed-aluminum",
+      "roughness": 0.18,
+      "anisotropy": 0.6,
+      "decal": "Kodak Portra 400"
+    },
+    "lighting": {
+      "rim_kelvin": 3200,
+      "rim_intensity": 4,
+      "fill_kelvin": 5800,
+      "fill_intensity": 0.8,
+      "volumetric_haze": true
+    },
+    "rotation_rpm_xy": 0.1,
+    "reduce_motion_fallback": "static-poster"
+  },
+  "copy": {
+    "h1": "Boutique film and digital portraiture in Williamsburg.",
+    "sub": "Editorial · fashion · brand. By-appointment studio sessions. Profoto + Hasselblad + 35mm Portra.",
+    "primary_cta": "Book a session",
+    "primary_cta_href": "#contact",
+    "secondary_cta": "View portfolio",
+    "secondary_cta_href": "#gallery",
+    "sticky_mobile_bar": "Book a session — Williamsburg studio"
+  },
+  "trust_strip": [
+    "Featured · Vogue · Harper's · Vanity Fair",
+    "200+ Weddings Photographed",
+    "12+ Years Brooklyn-Based",
+    "Sony Artisan · Hasselblad Master",
+    "Fine-Art Archival Print Partnership"
+  ],
+  "service_area": {
+    "primary_city": "Brooklyn, NY",
+    "service_area_cities": [
+      "Manhattan, NY", "DUMBO, NY", "Williamsburg, NY", "Greenpoint, NY", "Park Slope, NY",
+      "Cobble Hill, NY", "Brooklyn Heights, NY", "Carroll Gardens, NY", "Boerum Hill, NY", "Fort Greene, NY",
+      "Clinton Hill, NY", "Prospect Heights, NY", "Bedford-Stuyvesant, NY", "Crown Heights, NY", "Long Island City, NY",
+      "Astoria, NY", "Greenwich Village, NY", "West Village, NY", "Tribeca, NY", "SoHo, NY",
+      "Hudson Valley, NY", "Long Island, NY", "Sag Harbor, NY", "Montauk, NY", "Hudson, NY",
+      "Catskills, NY", "Hamptons, NY", "Greenwich, CT", "New Hope, PA", "Newport, RI"
+    ]
+  },
+  "services": [
+    { "slug": "editorial-weddings", "title": "Editorial Weddings", "blurb": "Documentary-meets-fashion wedding coverage shot on a hybrid film and digital workflow. We approach the day as an editorial assignment — anticipating moments, lighting them when needed, and leaving when the story has been told. 200+ weddings shot. Full galleries delivered, never highlight-only." },
+    { "slug": "engagement-films", "title": "Cinematic Engagement Films", "blurb": "Short-form motion pieces — 3 to 5 minutes — shot on Sony FX-series with prime cinema lenses and color-graded for theatrical screening at the wedding. Optional 35mm film co-coverage for an analog second layer. Treated as a film, scored as a film, delivered as a film." },
+    { "slug": "family-heirloom", "title": "Family Heirloom Portraits", "blurb": "Annual family sittings shot in your home, country house, or a curated location chosen with you. Delivered as fine-art archival prints in a hand-bound album — designed to be passed down rather than scrolled past. We have families on year nine of continuous coverage." },
+    { "slug": "founder-sittings", "title": "Brand + Founder Sittings", "blurb": "Editorial founder portraits for press, Series A announcements, board pages, and book covers. Shot on medium format. Two-hour sitting in your office or studio. Used by clients on the cover of Forbes, Inc., and Fast Company. We are not a corporate-headshot service." },
+    { "slug": "fine-art-prints", "title": "Fine-Art Print Commissions", "blurb": "Hand-printed editions on archival paper from our master print partner — the same lab used by international gallery photographers. Custom framing in solid walnut, oak, or aluminum. Editions of one to twelve, signed and numbered. Print is the only delivery method that ages well." },
+    { "slug": "destination", "title": "Destination Coverage", "blurb": "International wedding and editorial coverage with a fully self-sufficient travel kit. Past coverage in Italy, France, Mexico, Morocco, Iceland, Japan, and across the U.S. Travel-day-included pricing for any commission over four hours of coverage." }
+  ],
+  "process": [
+    { "n": 1, "title": "Inquiry + collection match", "blurb": "Conversation about story, scale, and aesthetic. Collection options matched to your specific commission — not a scroll through tier pricing." },
+    { "n": 2, "title": "Pre-production + scouting", "blurb": "For weddings, a venue scout and timeline meeting. For editorial, a mood board, lighting plan, and shot list developed collaboratively." },
+    { "n": 3, "title": "The day", "blurb": "Coverage shot calmly. We are not visible photographers — we work the way the best editorial photographers do, present without intruding." },
+    { "n": 4, "title": "Curation + delivery", "blurb": "Full gallery within 8 weeks for weddings, 4 weeks for editorial. Print and album consultation included for every wedding commission." }
+  ],
+  "case_study": {
+    "title": "Brooklyn Loft Wedding — Featured in Vogue, Spring 2025",
+    "photo_url": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&auto=format&fit=crop&q=80",
+    "quote": "We saw the work in Vogue, hired her two days later, and got married eleven months after that. The gallery is the most photographed thing we own. Our parents printed the album. Our friends have it on their coffee tables.",
+    "stats": [
+      { "value": "Vogue", "label": "Spring 2025 feature" },
+      { "value": "11 mo", "label": "Booking-to-wedding lead time" },
+      { "value": "Album", "label": "Hand-bound walnut delivery" }
+    ]
+  },
+  "testimonials": [
+    { "quote": "Vogue ran our wedding feature six weeks after the day. The work has been on fashion mood boards we did not commission and our friends have all booked her since. The single highest-stakes vendor decision we made and the only one we would not change.", "name": "Maya + Theo", "role": "Vogue-featured Brooklyn wedding", "city": "Brooklyn, NY" },
+    { "quote": "Our Series A press cycle needed founder portraits that did not look like corporate headshots. Cassidy shot a two-hour sitting in our office and Forbes ran the cover from her selects. The portrait has been licensed twelve times since. Worth every dollar.", "name": "Owen P.", "role": "Series A founder", "city": "Manhattan, NY" },
+    { "quote": "Year four of annual family sittings. The albums are the only photographs of our children we have printed and they are the most-handled objects in the house. Cassidy has watched our kids grow and the work shows it.", "name": "The W. family", "role": "Returning family — year four", "city": "Park Slope, NY" }
+  ],
+  "faqs": [
+    { "q": "What is your starting investment for weddings?", "a": "Wedding commissions begin at $14,000 and most invest between $18,000 and $32,000 depending on coverage hours, locations, and album-and-print delivery selections. Pricing is provided in writing after the initial inquiry conversation. We are not the cheapest photographer in Brooklyn and we are not for everyone." },
+    { "q": "Do you shoot film, digital, or both?", "a": "Both — most often a hybrid workflow. Medium-format film (Pentax 67, Hasselblad 503CW, Contax 645) for portraits and golden-hour key moments. Digital (Sony A1, Hasselblad X2D) for ceremony, low-light reception, and high-volume documentary coverage. The right tool for the right moment, never just one or the other." },
+    { "q": "How many images do we receive and when?", "a": "Full galleries — typically 600 to 1,200 finished images for an 8-hour wedding. Delivered within 8 weeks. Editorial commissions deliver in 4 weeks. We do not deliver highlight-only galleries; the full curated set is the standard." },
+    { "q": "Will you travel for destination weddings?", "a": "Yes — and frequently do. Past international coverage includes Italy, France, Mexico, Morocco, Iceland, and Japan. Travel costs are billed at-cost and integrated into the wedding contract. We carry a full self-sufficient travel kit including backup bodies, lighting, and lab-developable film stock." },
+    { "q": "Do you offer albums and fine-art prints?", "a": "Yes. Hand-bound walnut, oak, or linen-cover albums printed from the same archival lab used by international gallery photographers. Print editions in solid walnut, oak, or aluminum framing. Album and print consultation is included with every wedding commission and we strongly encourage it — files alone are not the delivery." },
+    { "q": "How do you handle low-light reception venues?", "a": "Hybrid digital workflow with Sony A1 paired with prime f/1.4 cinema lenses, on-camera and off-camera flash sequences orchestrated to feel ambient rather than imposing, and a documentary instinct that knows when to sit out a moment versus when to step in. Low-light is a craft, not a problem." },
+    { "q": "Can we see a full wedding gallery, not just highlights?", "a": "Always. We share full galleries from past weddings with serious inquiries — under signed access, respecting the privacy of past clients. Highlight reels are not enough to evaluate a photographer; the full gallery is where the consistency or inconsistency reveals itself." },
+    { "q": "How far in advance should we book?", "a": "9 to 14 months for fall weddings, 6 to 10 months for spring and summer. Saturdays in May, June, September, and October book first. Editorial commissions can typically be accommodated within 6 to 8 weeks. 2026 dates are limited as of inquiry." }
+  ],
+  "lead_magnet": {
+    "title": "How to Choose a Wedding Photographer (Without Regret)",
+    "subtitle": "Twelve questions every couple should ask before signing. 11 pages.",
+    "cta": "Read the guide →"
+  },
+  "photos": {
+    "hero": "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?w=1920&auto=format&fit=crop&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1519741497674-611481863552?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1517722014278-c256a91a6fba?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1525258946800-98cfd641d0de?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=1280&auto=format&fit=crop&q=80"
+    ]
+  },
+  "competitors": [
+    "https://www.levkuperman.com",
+    "https://christianothstudio.com",
+    "https://hmphotoshoots.com",
+    "https://danilamednikov.com",
+    "https://luciebphoto.com"
+  ],
+  "anti_patterns": [
+    "Watermarks on every preview image",
+    "Auto-playing music on page load",
+    "Squarespace HOME · ABOUT · BLOG · CONTACT nav"
+  ],
+  "modules": {
+    "booking_calendar": false, "service_area_map": false,
+    "photo_gallery": true, "faq": true, "lead_magnet": true
+  },
+  "contact": {
+    "form_endpoint": "https://api.web3forms.com/submit",
+    "calendly_url": "https://calendly.com/skynetlabs-demo/15min"
+  },
+  "seo": {
+    "title": "Editorial Wedding Photographer Brooklyn | SkynetLabs",
+    "description": "Editorial wedding and portrait photography from Brooklyn. Vogue, Harper's, Vanity Fair featured. 200+ weddings. Sony Artisan + Hasselblad Master.",
+    "keywords": ["editorial wedding photographer brooklyn", "fine art wedding photographer nyc", "vogue wedding photographer", "founder portrait photographer nyc"],
+    "noindex": true
+  },
+  "demo_disclosure": {
+    "enabled": true,
+    "fiverr_cta_url": "https://www.fiverr.com/agencies/skynetjoellc?utm_source=demo&utm_campaign=photography",
+    "contact_cta_url": "https://skynetjoe.com/contact?utm_source=demo&utm_campaign=photography",
+    "portfolio_url": "https://skynetjoe.com/portfolio"
+  }
+}

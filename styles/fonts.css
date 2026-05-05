@@ -1,0 +1,31 @@
+/*
+ * Phase 4 font primitives.
+ *
+ * --font-display / --font-body-v2 are populated in app/layout.tsx via Next-font
+ * variables (see FONT_REGISTRY). This file declares fallbacks and utility
+ * classes; it does NOT redefine the variables themselves.
+ *
+ * Tailwind classes `font-display` and `font-body-v2` are provided by the
+ * fontFamily extension in tailwind.config.ts (already wired). This file only
+ * adds the `.font-tabular` and `.font-smallcaps` utilities.
+ *
+ * NOTE: Cannot use @layer here because PostCSS-imports are flattened before
+ * Tailwind processes its directives — using plain CSS rules instead.
+ */
+
+:root {
+  --font-display-fallback: ui-serif, Georgia, "Times New Roman", serif;
+  --font-body-v2-fallback: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Tabular-nums utility for stat blocks, verdict $ amounts, capacity numbers. */
+.font-tabular {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+}
+
+/* Small-caps utility for press strips + license stacks (per font assignment table). */
+.font-smallcaps {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.06em;
+}
